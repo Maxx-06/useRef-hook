@@ -1,7 +1,5 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
+import Counter from "./Counter";
 import "./App.css";
 
 /*
@@ -22,6 +20,7 @@ function App() {
     <div>
       <input ref={inputRef} type="text" />
       <button onClick={focusInput}>Focus Input</button>
+      <Counter />
     </div>
   );
 }
